@@ -7,4 +7,13 @@ a simple and general artificial neural network model
 
 2）loss为平方损失
 
-3）示例参数为loss=271，test accuracy=96.31%的实例
+3）示例参数为：
+  14*14 + 64 + 10
+  linear + tanh + softmax
+
+  [training]accuracy     = 0.98126
+  [training]accum loss   = 163.727/10000张
+  [validation]accuracy   = 0.9636
+  [validation]accum loss = 280.659/10000张
+  [test]accuracy         = 0.9601
+  [test]accum loss       = 305.825/10000张
